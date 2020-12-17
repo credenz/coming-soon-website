@@ -1,9 +1,15 @@
 .body{
     padding: 0 150px;
+    align-items: center;
 }
 
 .sponsor{
     margin: 40px 0 ;
+}
+
+h1{
+    color: azure;
+    
 }
 
 /* a:visited{
