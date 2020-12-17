@@ -1,0 +1,19 @@
+.body{
+    padding: 0 150px;
+}
+
+.sponsor{
+    margin: 40px 0 ;
+}
+
+/* a:visited{
+    color:transparent !important;
+} */
+
+
+@media(max-width: 600px){
+    .body{
+        padding: 0;
+        padding: 20px;
+    }
+}
