@@ -1,21 +1,24 @@
 import React, { useEffect } from "react";
 import HomeAnimation from "./HomeAnimation/HomeAnimation";
 import Timer from "./Timer";
+import  cred  from "../assests/img/crewhite.png";
+import Social from '../floatingButton/sideEvent';
 
 const Home = () => {
   return (
     <div className="container">
+      <div style={{justifyContent:"center", display:'flex'}} className="justify-content-centre">
+        <img style={{width:'25%'}} alt="black" src={cred}></img>
+      </div>
       <div className="d-flex justify-content-center">
-        <img alt="black" src={require('./final-logo.png')}></img>
+          <HomeAnimation />
+        {/* <h1 style={{color: "ivory"}}>Credenz Home Page</h1> */}
       </div>
       <div className="d-flex justify-content-center">
         {/* <h1 style={{color: "ivory"}}>Credenz Home Page</h1> */}
-        <HomeAnimation />
+        <h1 style={{fontSize:"90px", display:"flex", justifyContent:"center"}}>Coming Soon!</h1>
       </div>
-      <div className="d-flex justify-content-center">
-        {/* <h1 style={{color: "ivory"}}>Credenz Home Page</h1> */}
-        <h1>Coming Soon!</h1>
-      </div>
+      <Social/>
     </div>
   );
 };

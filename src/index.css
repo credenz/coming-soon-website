@@ -10,6 +10,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-image: url('./assests/img/tree.jpg');
+    background-size: cover;
     /* position: absolute;
     top: 10px;
     left: 20px;
