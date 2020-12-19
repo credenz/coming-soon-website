@@ -3,6 +3,7 @@ import HomeAnimation from "./HomeAnimation/HomeAnimation";
 import Timer from "./Timer";
 import  cred  from "../assests/img/crewhite.png";
 import Social from '../floatingButton/sideEvent';
+import { Random1 } from "./Jump";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
       </div>
       <div className="d-flex justify-content-center">
         {/* <h1 style={{color: "ivory"}}>Credenz Home Page</h1> */}
-        <h1 style={{fontSize:"90px", display:"flex", justifyContent:"center"}}>Coming Soon!</h1>
+        <Random1/>
       </div>
       <Social/>
     </div>
